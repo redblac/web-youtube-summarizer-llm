@@ -1,0 +1,10 @@
+streamlit>=1.25
+validators
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-groq   # placeholder - replace with actual pip package for Groq if different
+unstructured
+youtube-transcript-api
